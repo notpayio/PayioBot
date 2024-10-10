@@ -1,11 +1,11 @@
 require("dotenv").config();
 
 module.exports = {
-    token: "MTA1NTgxNzI3MzgyNDI2ODI5OQ.GvF_BL.DPY-uFimjCEKsQm7nHBmZEWT1gqpLR0yuW3Tzk",
-    clientID: "1055817273824268299", 
+    token: process.env.token || "",
+    clientID: process.env.cid || "", 
     prefix: "!", 
-    ownerID: "992471153182527639",
-    guildID:  "1000841782432632842",
+    ownerID: process.env.ownerid || "",
+    guildID: process.env.guildid || "",
     SpotifyID: "aece5b4d7d27426ebef592a75bd43a2c",
     SpotifySecret:  "79a8a54525324e9aa3291eeb880ff287",
     mongourl: "mongodb+srv://s:PZVqiwNH9wQuU8ZA@cluster0.q2196.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
