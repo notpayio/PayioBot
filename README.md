@@ -14,3 +14,6 @@ if you need to edit more config please refork my github code into your account a
 for pc 
 just do npm i 
 and then node . 
+
+no need to change lavalink or mongodb both are hosted on my server and wont get any issues 
+they have a yearly host 
