@@ -1,5 +1,5 @@
 For replit just put values of secrets in the env 
-
+USE NODE.js 19V
 for glitch 
 
 go to the env and 
